@@ -18,21 +18,21 @@ const apivhtear = 'YOUR_APIKEY'; // APIKEY VHTEAR
 const apibarbar = 'YOUR_APIKEY'; // APIKEY MHANKBARBAR
 const tobzkey = 'YOUR_APIKEY'; // APIKEY TOBZ
 const vinzkey = 'YOUR_APIKEY'; // APIKEY ZEKS
-const BotName = 'SADBOTZ'; // GANTI PAKE NAMA BOT LU
+const BotName = 'CHADITZ'; // GANTI PAKE NAMA BOT LU
 const wa = 'https://chat.whatsapp.com/DcSr2e5hLMd7PkufBVymgu'; // LINK GRUP WA JANGAN DIGANTI YA BIAR KUMPUL DISITU SALING MENGENAL:)
-const ow = 'RAMLAN'; // GANTI PAKE NAMA MU
-const nomorowner = '085559240360'; // GANTI PAKE NOMOR MU ( JANGAN NOMOR BOT )
-const ovo = '0855-5924-0360'; // GANTI PAKE NOMOR OVO LU
-const pulsa = '0812-1444-1027'; // GANTI PAKE NOMOR PULSA LU
-const dana = '0855-5924-0360'; // GANTI PAKE NOMOR DANA LU
-const gopay = '0855-5924-0360'; // GANTI PAKE NOMOR GOPAY LU
-const instagram = 'http://www.instagram.com/iamramlan_'; // GANTI IG LU
-const aktif = '08:00 - 22:00'; // TERSERAH LU DAH INI
+const ow = 'Radit'; // GANTI PAKE NAMA MU
+const nomorowner = '085523589854'; // GANTI PAKE NOMOR MU ( JANGAN NOMOR BOT )
+const ovo = '0855-2358-9854'; // GANTI PAKE NOMOR OVO LU
+const pulsa = '089-6306-81145'; // GANTI PAKE NOMOR PULSA LU
+const dana = '0855-2358-9854'; // GANTI PAKE NOMOR DANA LU
+const gopay = '0855-2358-9854'; // GANTI PAKE NOMOR GOPAY LU
+const instagram = 'https://www.instagram.com/raditfadillah01/'; // GANTI IG LU
+const aktif = '24 jam'; // TERSERAH LU DAH INI
 const vcard = 'BEGIN:VCARD\n'
   + 'VERSION:3.0\n' // MAU NGAPAIN TOD
-  + 'FN:RAMLAN GANS\n' // GANTI PAKE NAMA MU
-  + 'ORG:OWNER BOT;\n' // INI BIARIN GPP, GANTI PAKE NAMA BOT BOLEH
-  + 'TEL;type=CELL;type=VOICE;waid=6285559240360:+62 855-5924-0360\n' // GANTI PAKE NOMOR LU ( SAMAIN KEK GITU YA )
+  + 'FN:Radit gans\n' // GANTI PAKE NAMA MU
+  + 'ORG:CHADITZ BOT;\n' // INI BIARIN GPP, GANTI PAKE NAMA BOT BOLEH
+  + 'TEL;type=CELL;type=VOICE;waid=6285523589854:+62 855-2358-9854\n' // GANTI PAKE NOMOR LU ( SAMAIN KEK GITU YA )
   + 'END:VCARD' // THANKS TO LANN ID
 // NOTE : UBAH YANG GUE SURUH UBAH AJA BIAR GAK ERROR
 const
@@ -84,7 +84,7 @@ conn.on('message-status-update', json => {
 })
 setInterval(function () {
   for (i = 0; i < 3; i++) {
-    console.log(`[ ${moment().format("HH:mm:ss")} ] => Hallo I'm Ramlan :)`)
+    console.log(`[ ${moment().format("HH:mm:ss")} ] => Hallo I'm Radit :)`)
   }
 }, 15000)
 
@@ -315,9 +315,9 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
   if (text.includes('!bingungcok')) {
     var nomor = m.participant
     const options = {
-      text: `🔰 -----[ *PANDUAN PENGGUNAAN ${BotName}* ]----- 🔰
+      text: `🔰 -----[ *PANDUAN PENGGUNAAN ${CHADITZ BOT}* ]----- 🔰
 *Hallo,👋 @${nomor.split("@s.whatsapp.net")[0]}*
-Berikut adalah cara penggunaan *${BotName}*
+Berikut adalah cara penggunaan *${CHADITZ BOT}*
          ────────────────
 Note : Jangan males membaca !!!
          ────────────────
@@ -326,7 +326,7 @@ Note : Jangan males membaca !!!
 2. *!nulis*
 ➸ Untuk membuat tulisan | contoh : !nulis Ramlan baik hati dan sopan
 3. *!stalkig*
-➸ Untul stalking ig menggunakan username | contoh : !stalkig iamramlan_
+➸ Untul stalking ig menggunakan username | contoh : !stalkig raditpadillah01_
 4. *!ssweb*
 ➸ Mengambil gambar web | contoh : !ssweb http://xnxx.com
 5. *!quotes*
